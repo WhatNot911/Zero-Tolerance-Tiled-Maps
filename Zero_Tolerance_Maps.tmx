@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="2017.07.25" orientation="orthogonal" renderorder="left-up" width="32" height="32" tilewidth="4" tileheight="4" nextobjectid="1">
  <tileset firstgid="1" name="TileSet" tilewidth="4" tileheight="4" tilecount="9" columns="9">
-  <image source="../TileSet.png" width="36" height="4"/>
+  <image source="Images/TileSet.png" width="36" height="4"/>
  </tileset>
  <group name="Backgrounds" opacity="0.79">
   <imagelayer name="L001 - Docking Bay 1" visible="0" locked="1" offsetx="-96" offsety="-84">
