@@ -5,31 +5,43 @@
  </tileset>
  <group name="Backgrounds" opacity="0.46">
   <imagelayer name="L001 - Docking Bay 1" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/001_Docking_Bay_1.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/001_Docking_Bay_1.png" width="320" height="224"/>
   </imagelayer>
   <imagelayer name="L002 - Docking Bay 2" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/002_Docking_Bay_2.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/002_Docking_Bay_2.png" width="320" height="224"/>
   </imagelayer>
   <imagelayer name="L003 - Brdige 1" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/003_Bridge_1.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/003_Bridge_1.png" width="320" height="224"/>
   </imagelayer>
   <imagelayer name="L004 - Engineering 1" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/004_Engineering_1.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/004_Engineering_1.png" width="320" height="224"/>
   </imagelayer>
   <imagelayer name="L005 - Engineering 2" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/005_Engineering_2.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/005_Engineering_2.png" width="320" height="224"/>
   </imagelayer>
   <imagelayer name="L006 - Engineering 3" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/006_Engineering_3.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/006_Engineering_3.png" width="320" height="224"/>
   </imagelayer>
   <imagelayer name="L007 - Engineering 4" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/007_Engineering_4.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/007_Engineering_4.png" width="320" height="224"/>
   </imagelayer>
   <imagelayer name="L008 - Greenhouse 1" visible="0" locked="1" offsetx="-96" offsety="-84">
-   <image source="Maps/008_Greenhouse_1.png" width="320" height="224"/>
+   <image source="Maps/Stage 1/008_Greenhouse_1.png" width="320" height="224"/>
   </imagelayer>
-  <imagelayer name="L009 - Greenhouse 2" offsetx="-96" offsety="-84">
-   <image source="Maps/009_Greenhouse_2.png" width="320" height="224"/>
+  <imagelayer name="L009 - Greenhouse 2" visible="0" locked="1" offsetx="-96" offsety="-84">
+   <image source="Maps/Stage 1/009_Greenhouse_2.png" width="320" height="224"/>
+  </imagelayer>
+  <imagelayer name="L010 - Greenhouse 3" locked="1" offsetx="-96" offsety="-84">
+   <image source="Maps/Stage 1/010_Greenhouse_3.png" width="320" height="224"/>
+  </imagelayer>
+  <imagelayer name="L011 - Bridge 2" visible="0" locked="1" offsetx="-96" offsety="-84">
+   <image source="Maps/Stage 1/011_Bridge_2.png" width="320" height="224"/>
+  </imagelayer>
+  <imagelayer name="L012 - Reactor 1" visible="0" locked="1" offsetx="-96" offsety="-84">
+   <image source="Maps/Stage 1/012_Reactor_1.png" width="320" height="224"/>
+  </imagelayer>
+  <imagelayer name="L013 - Reactor 2" visible="0" offsetx="-96" offsety="-84">
+   <image source="Maps/Stage 1/013_Reactor_2.png" width="320" height="224"/>
   </imagelayer>
  </group>
  <group name="Layers">
@@ -321,7 +333,7 @@
 4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,0,0,0
 </data>
   </layer>
-  <layer name="L009 - Greenhouse 2" width="32" height="32">
+  <layer name="L009 - Greenhouse 2" width="32" height="32" visible="0" locked="1">
    <data encoding="csv">
 0,0,0,0,0,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,0,0,0,0,
 0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,
@@ -354,6 +366,42 @@
 1,0,0,0,4,1,1,1,1,1,0,0,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,3,0,0,0,1,
 1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,
 1,2,0,0,0,0,0,0,5,1,2,0,1,1,1,0,1,1,1,0,5,1,2,0,0,0,0,0,0,0,5,1,
+4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
+</data>
+  </layer>
+  <layer name="L010 - Greenhouse 3" width="32" height="32">
+   <data encoding="csv">
+5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,
+1,3,0,0,0,0,0,0,0,0,0,0,0,4,1,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,4,1,
+1,0,5,0,1,0,1,0,1,0,1,0,2,0,1,0,1,0,5,1,2,0,0,0,0,0,0,5,1,2,0,1,
+1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,
+1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,5,1,1,1,1,1,1,2,0,1,0,1,
+1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,
+1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,1,0,1,0,1,
+1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,
+1,0,4,0,1,0,1,0,1,0,1,0,3,0,6,0,6,0,1,0,1,1,1,1,3,0,0,4,1,3,0,1,
+1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,5,1,
+1,1,1,1,1,1,1,0,5,1,1,1,2,0,1,0,1,0,1,0,1,1,1,1,1,0,5,1,1,1,1,1,
+1,3,0,0,0,0,6,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,
+1,0,0,0,0,0,1,0,1,1,1,1,1,0,1,0,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,1,
+1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,4,1,1,1,1,1,
+1,0,0,0,0,0,1,0,1,1,1,1,1,0,1,0,1,0,1,0,4,1,1,1,3,0,0,6,0,0,0,1,
+1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,5,1,1,1,1,1,
+1,0,0,0,0,0,1,0,4,1,1,1,3,0,1,0,1,0,4,1,1,1,1,1,3,0,1,1,1,1,1,1,
+1,2,0,0,0,5,1,2,0,0,0,0,0,5,1,9,1,2,0,0,0,0,0,0,0,5,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,0,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,3,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,
+1,0,0,0,0,0,0,0,0,1,0,5,1,1,1,1,1,1,1,2,0,5,1,1,1,1,1,1,1,2,0,1,
+1,0,5,1,1,1,1,2,0,1,0,1,3,0,0,0,0,0,4,1,0,1,0,0,0,0,1,0,1,0,0,1,
+1,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,1,
+1,1,0,1,0,1,0,1,0,1,0,1,2,0,0,0,0,0,5,1,0,1,0,0,1,1,1,1,1,1,0,1,
+1,0,0,1,0,1,0,1,0,1,0,1,1,0,1,0,1,0,1,1,0,1,1,0,1,0,0,0,0,0,0,1,
+1,0,0,1,0,0,0,1,0,1,0,1,1,0,1,9,1,0,1,1,0,1,0,0,1,0,1,1,1,1,1,1,
+1,1,0,4,1,1,1,1,0,4,1,1,3,0,1,0,1,0,4,1,1,1,1,1,1,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,1,0,0,0,0,5,1,1,9,1,1,2,0,0,0,0,0,4,1,1,1,1,1,0,1,
+1,1,1,1,1,2,0,4,1,1,1,1,1,1,1,0,1,1,1,1,2,0,1,0,0,1,0,1,0,0,0,1,
+1,0,0,0,0,3,0,0,1,0,1,0,1,1,1,0,1,1,1,0,4,1,1,1,0,1,0,1,0,1,0,1,
+1,2,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,
 4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3
 </data>
   </layer>
